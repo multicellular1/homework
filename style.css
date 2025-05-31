@@ -5,6 +5,31 @@
     font-family: Arial, sans-serif;
 }
 
+.start{
+    color: white;
+    position: relative;
+    bottom: 290px;
+    left: 290px;
+}
+.logo{
+    position: relative;
+    right: 900px;
+    bottom: 25px;
+}
+.tell{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 217, 93);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.tellme{
+    position: relative;
+    top: 30px;
+    font-size: 1.5em;
+}
 nav {
     padding: 20px;
     text-align: center;
@@ -20,11 +45,15 @@ nav ul li {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.nice{
+    font-size: 3em;
+}
 .hero {
     text-align: center;
-    padding: 100px 20px;
-    background: url(a7c2179f-0513-4a32-8de7-db76923d7259.jfif)
+    padding: 300px 20px;
+    background: url(main.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
 }
 
 .hero h1 {
@@ -54,6 +83,10 @@ nav ul li {
     max-width: 1200px;
     margin: 40px auto;
 }
+/* .yellow{
+    border: yellow;
+    border-radius: 20px;
+} */
 
 .service-item h3 {
     margin: 15px 0;
@@ -65,21 +98,22 @@ nav ul li {
     text-align: center;
 }
 
-.portfolio-grid {
+ .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 40px auto;
-}
+}  
 
-.portfolio-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
+  .portfolio-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+}    
+.thetext{
+    font-size: 1em;
 }
-
 .wrapper_content {
     width: 300vw;
     transform: translateX(25%);
@@ -114,9 +148,9 @@ nav ul li {
 }
 
 .team {
-    padding: 200px 0px;
-    text-align: center;
     background-color: #f8f9fa;
+    padding: 170px 0px;
+    text-align: center;
 }
 
 .team-grid {
@@ -126,18 +160,26 @@ nav ul li {
     max-width: 1200px;
     margin: 40px auto;
 }
+.company{
+    padding: 120px 0px;
+    text-align: center;
+    background-color: white;    
+}
 
+.company1{
+    margin-left: 40px;
+}
 footer {
     padding: 40px 20px;
-    background-color: #333;
-    color: white;
-    text-align: center;
+    background-color: white;
+    color: black;
+    text-align: left;
 }
-img{
+/* img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-}
+}  */
 .wrapper_noir_right, .wrapper_noir_left {
     justify-content: center;
     width: 100%;
@@ -168,9 +210,106 @@ img{
 .team2 h3{
     color:#f8f9fa
 }
+.ourteam{
+    font-size: 2.5em;
+}
 .preend{
     text-align: center;
     padding: 100px 20px;
-    background: url(b52218f4-1602-453c-a052-1899703afcd5.jfif)
+    background-color: white;
 
+}
+.end{
+    text-align: left;
+}
+.feedback{
+    background-image: url(background.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+
+}
+.feed_title{
+    padding: 20px;
+    font-size: 2.5em;
+    color: white;
+
+}
+.tttext{
+    color: rgb(214, 214, 214);
+    margin-bottom: 50px;
+}
+
+.send{
+    background-color: rgb(255, 208, 0);
+    color: white;
+    height: 60px;
+    width: 300px;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    bottom: 150px;
+    border-radius: 5px;
+    font-size: 2em;
+}
+.send:hover{
+    border: 1px solid white;
+    background-color: rgb(245, 187, 61);
+    color: white;
+}
+.feed{
+    resize: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    height: 200px;
+    width: 500px;
+    margin-left: 25%;
+    position: relative;
+    top: -170px;
+    left: -50px;
+}
+
+.entry{
+    width: 500px;
+    height: 38px;
+    border-radius: 5px;
+}
+.reg_ent_name{
+    margin-left: -20%;
+    
+}
+.reg_ent_link{
+    margin-left: -20%;
+}
+.images{
+    text-align: center;
+}
+
+.photo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 7px solid #e4e4e4;
+}
+.photo1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+}
+.photo2{
+    position: relative;
+    top: 70px;
+    color: white;
+    
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+    left: 85px;
 }
